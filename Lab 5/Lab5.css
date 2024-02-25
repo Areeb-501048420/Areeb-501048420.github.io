@@ -1,0 +1,26 @@
+
+
+/* Default image styling for when the image is not clicked and not enlargened */
+.image{
+    width: 200px;
+    height: 200px;
+}
+
+/* Enlargened styling for when image is clicked */
+.enlargen{
+    width: 400px;
+    height: 400px;
+}
+
+/* Styling for hovering over with mouse */
+.hover{
+    color:yellow;
+    font-weight: bolder;
+}
+
+/* Styling for unhovering with mouse */
+.unhover{
+    color: red;
+    font-style: italic;
+}
+
