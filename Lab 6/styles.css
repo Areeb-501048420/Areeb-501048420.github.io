@@ -1,0 +1,40 @@
+.comments{
+    border-radius: 5px;
+    margin-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.form{
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 5px;
+    background-color: bisque;
+}
+
+.intro{
+    margin-left: 10px;
+    
+}
+
+.subres{
+    margin-left: 10px;
+    border-radius: 100px;
+    border-width: 10px;
+    border-color: aquamarine;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.font{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hinv{
+    margin-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.comprom{
+    margin-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

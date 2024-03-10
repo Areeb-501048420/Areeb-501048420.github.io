@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 6</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <br />
+    <form class="form" id="myform">
+      <p class="intro">
+        <input class="font" id="name" type="text" placeholder="Name" /> Please
+        enter your full name.
+      </p>
+
+      <p class="intro">
+        <input class="font" id="company" type="text" placeholder="Company" />
+        What company do you work for?
+      </p>
+
+      <p class="intro">
+        <input class="font" id="title" type="text" placeholder="Title" /> What
+        is your job title?
+      </p>
+
+      <p class="intro">
+        <input class="font" id="email" type="text" placeholder="e-mail" />
+        Please enter your email.
+      </p>
+
+      <p class="intro">
+        <input class="font" id="linkedin" tpye="text" placeholder="Linkedin" />
+        Please enter your Linkedin profile link. (Optional)
+      </p>
+
+      <br />
+
+      <p class="hinv">
+        Are you involved in the hiring process?
+        <input type="radio" id="hinvy" value="yes" name="Yes" /> Yes
+        <input type="radio" id="hinvn" value="no" name="No" /> No
+      </p>
+
+      <p class="hinv">
+        Are you/your company currently hiring?
+        <input type="checkbox" id="hiringy" /> Yes
+        <input type="checkbox" id="hiringn" /> No
+      </p>
+
+      <br />
+
+      <p class="hinv">
+        If you/your company is hiring, for which term are you hiring? If not
+        please select N/A.
+        <input type="checkbox" id="hiringsummer" /> Summer term
+        <input type="checkbox" id="hiringfall" /> Fall term
+        <input type="checkbox" id="hiringwinter" /> Winter term
+        <input type="checkbox" id="hiringna" /> N/A
+      </p>
+
+      <p class="hinv">
+        For what duration are you hiring? If not hiring please select N/A.
+        <select name="duration">
+          <option id="duradefault"></option>
+          <option id="dura4">4 months</option>
+          <option id="dura8">8 months</option>
+          <option id="dura12">12 monts</option>
+          <option id="dura16">16 months</option>
+          <option id="duraO2A">Open to all</option>
+          <option id="duraun">Unsure</option>
+          <option id="durana">N/A</option>
+        </select>
+      </p>
+
+      <br />
+      <br />
+
+      <p class="comprom">
+        Please leave any comments, details, or questions you may have here.
+      </p>
+      <textarea
+        class="comments"
+        id="comments"
+        name="comments"
+        rows="20"
+        cols="66"
+      >
+      </textarea>
+
+      <p>
+        <input class="subres" type="submit" value="Submit" onclick="submit()" />
+        <input class="subres" type="reset" />
+      </p>
+    </form>
+  </body>
+</html>
